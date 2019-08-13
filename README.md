@@ -1,2 +1,2 @@
-# homebrew-eosio
-homebrew tap for EOSIO
+# homebrew-protocol
+homebrew tap for Remme Protocol
