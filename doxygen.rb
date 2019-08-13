@@ -1,5 +1,5 @@
 class Doxygen < Formula
-  desc "EOSIO VERSION (no cmake): Generate documentation for several programming languages"
+  desc "PROTOCOL VERSION (no cmake): Generate documentation for several programming languages"
   homepage "http://www.doxygen.org/"
   url "http://doxygen.nl/files/doxygen-1.8.15.src.tar.gz"
   mirror "https://downloads.sourceforge.net/project/doxygen/rel-1.8.15/doxygen-1.8.15.src.tar.gz"
