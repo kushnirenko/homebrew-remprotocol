@@ -1,8 +1,8 @@
-class Eosio < Formula
+class Protocol < Formula
 
-   homepage "https://github.com/eosio/eos"
+   homepage "https://github.com/Remmeauth/protocol"
    revision 0
-   url "https://github.com/eosio/eos/archive/v1.8.1.tar.gz"
+   url "https://github.com/Remmeauth/protocol/archive/v0.1.0.tar.gz"
    version "1.8.1"
 
    option :universal
@@ -15,8 +15,8 @@ class Eosio < Formula
    depends_on :arch =>  :intel
 
    bottle do
-      root_url "https://github.com/eosio/eos/releases/download/v1.8.1"
-      sha256 "f29fe13e6afe372d98d4b8b6003381a6d96c0773f049cf116515a4e46e4379a1" => :mojave
+      root_url "https://github.com/Remmeauth/protocol/releases/download/v0.1.0"
+      sha256 "e6765dbb6f85c7e80611b00f212f2f5f3d6d2be7dc7d68499df9bcc35cf20f39" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
