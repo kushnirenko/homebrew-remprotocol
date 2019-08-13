@@ -3,7 +3,7 @@ class Remprotocol < Formula
    homepage "https://github.com/Remmeauth/remprotocol"
    revision 0
    url "https://github.com/Remmeauth/remprotocol/archive/0.1.0.tar.gz"
-   version "1.8.1"
+   version "0.1.0"
 
    option :universal
 
