@@ -1,4 +1,4 @@
-class Remprotocol < Formula
+class Remmeauth < Formula
 
    homepage "https://github.com/kushnirenko/remprotocol"
    revision 0
@@ -11,12 +11,12 @@ class Remprotocol < Formula
    depends_on "gettext"
    depends_on "openssl"
    depends_on "libusb"
-   depends_on :macos => :mojave
+   depends_on :macos => :high_sierra
    depends_on :arch =>  :intel
 
    bottle do
       root_url "https://github.com/kushnirenko/remprotocol/releases/download/1.2.3"
-      sha256 "e6765dbb6f85c7e80611b00f212f2f5f3d6d2be7dc7d68499df9bcc35cf20f39" => :mojave
+      sha256 "7dfdac355a9147614be6e6cf6f8595187a45f883516bdd4aed7d69048cafd2b4" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
