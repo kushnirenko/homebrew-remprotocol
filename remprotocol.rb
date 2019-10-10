@@ -1,4 +1,4 @@
-class Remmeauth < Formula
+class Remprotocol < Formula
 
    homepage "https://github.com/kushnirenko/remprotocol"
    revision 0
