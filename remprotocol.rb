@@ -2,8 +2,8 @@ class Remprotocol < Formula
 
    homepage "https://github.com/Remmeauth/remprotocol"
    revision 0
-   url "https://github.com/kushnirenko/remprotocol/archive/1.2.6.tar.gz"
-   version "1.2.6"
+   url "https://github.com/RemmeAuth/remprotocol/archive/1.8.1.tar.gz"
+   version "1.8.1"
 
    option :universal
 
@@ -15,8 +15,8 @@ class Remprotocol < Formula
    depends_on :arch =>  :intel
 
    bottle do
-      root_url "https://github.com/kushnirenko/remprotocol/releases/download/1.2.6"
-      sha256 "d654a0915d2c05d62e2b459347df196ada57deb73427258c7209ab384caba437" => :mojave
+      root_url "https://github.com/RemmeAuth/remprotocol/releases/download/1.8.1"
+      sha256 "124f7983a23ccec32da3111fb0a9f7eb0cf80cc72c520cba6ae5a67fe6c8b8a6" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
